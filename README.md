@@ -31,7 +31,7 @@
 
 ## 软件界面预览
 
-![软件界面预览](https://github.com/boy86001/Quick-Tools/blob/main/001.png)
+![软件界面预览](https://zero001.us.kg/webdav/document/2025-01-02.png)
 
 ---
 
