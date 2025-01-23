@@ -35,7 +35,7 @@
 
 ## 软件界面预览
 
-![软件界面预览](https://zero001.us.kg/webdav/document/2025-01-15.png)
+![软件界面预览](https://zero001.us.kg/webdav/document/2025-01-05.png)
 <small>图片已是最新，同步更新完成。</small>
 
 ## 下载与安装
