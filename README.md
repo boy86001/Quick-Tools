@@ -1,9 +1,9 @@
-# Quick-Tools2.2
+# Quick-Tools2.3
 
 Quick-Tools 是一款多功能系统管理工具，集成关机、重启、网络测试、定时任务和文件同步等实用功能，同时记录详细操作日志并提供管理界面。软件内置授权验证机制，确保合法使用；支持开机自动运行与后台托盘操作。支持 Windows 系统，需运行在 .NET Framework 4.8 环境下。
 
 ## 软件界面预览
-![软件界面预览](https://zero001.us.kg/webdav/document/2025-01-05.png?v={{TIMESTAMP}})
+![软件界面预览](https://zero001.icu/webdav/document/2025-01-05.png?v={{TIMESTAMP}})
 <small>图片已同步更新。</small>
 
 ## 下载与安装
