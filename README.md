@@ -1,46 +1,46 @@
 # Quick-Tools
 
-Quick-Tools 是一款多功能系统管理工具，集成关机、重启、网络测试、定时任务和文件同步等实用功能，同时记录详细操作日志并提供管理界面。软件内置授权验证机制，确保合法使用；支持开机自动运行与后台托盘操作。支持 Windows 系统，需运行在 .NET Framework 4.8 环境下。
+Quick-Tools is a multifunctional system management utility that integrates practical features such as shutdown, restart, network testing, scheduled tasks, and file synchronization. It also provides detailed operation logs and a management interface. The software includes a built-in license verification mechanism to ensure authorized use and supports startup autorun and system tray operation. It is compatible with Windows systems and requires the .NET Framework 4.8 runtime environment.
 
-## 软件界面预览
-![软件界面预览](https://zero001.icu/webdav/document/2025-01-05.png?v={{TIMESTAMP}})
-<small>图片已同步更新。</small>
+## Software Interface Preview
+![Software Interface Preview](https://zero001.icu/webdav/document/2025-01-05.png?v={{TIMESTAMP}})
+<small>The image has been updated.</small>
 
-## 下载与安装
-- **软件下载地址**：[点击下载](https://github.com/boy86001/Quick-Tools/releases)
-- **安装要求**：
-  - 支持 Windows 系统，需运行在 .NET Framework 4.8 环境下。
-  - 如果系统未安装 .NET 4.8 环境，软件将自动跳转到 [.NET Framework 4.8 下载页面](https://dotnet.microsoft.com/download/dotnet-framework/net48)，请按照指引完成安装。
-  - 安装过程需输入密码：`3004`
+## Download & Installation
+- **Download Link**: [Click to Download](https://github.com/boy86001/Quick-Tools/releases)
+- **Installation Requirements**:
+  - Supports Windows systems and requires the .NET Framework 4.8 environment.
+  - If .NET 4.8 is not installed, the software will redirect you to the [.NET Framework 4.8 download page](https://dotnet.microsoft.com/download/dotnet-framework/net48). Please follow the instructions to complete the installation.
+  - Installation password: `3004`
 
-## 使用说明
-1. **关机/重启**  
-   点击“关机”或“重启”按钮，即可立即执行关机或重启操作；可选择自动倒计时（3秒）功能。
+## User Guide
+1. **Shutdown/Restart**  
+   Click the "Shutdown" or "Restart" button to immediately perform the operation. You may enable the optional 3-second countdown.
 
-2. **定时任务**  
-   在“选择关机时间”中设置目标时间，选择“一次性”或“每日执行”模式，点击“设定定时关机”完成任务创建。  
-   - **任务独立运行**：即使软件关闭，定时关机任务依然会在系统中独立运行，不受软件状态影响，这也是本软件的一大亮点。  
-   - **关机提醒与取消**：到达预定关机时间时，系统会自动弹出提醒窗口，提示用户即将执行关机操作。用户可选择确认继续关机或点击取消本次关机，以防止数据丢失或误操作。
+2. **Scheduled Tasks**  
+   Set your target time in the "Select Shutdown Time" section, choose "One-time" or "Daily Execution" mode, and click "Set Scheduled Shutdown" to create a task.  
+   - **Tasks Run Independently**: Scheduled shutdown tasks run independently of the application. Even if the software is closed, the task remains active in the system — a key feature of Quick-Tools.  
+   - **Shutdown Reminders & Cancellation**: At the scheduled time, a reminder window will pop up to alert the user before the shutdown executes. The user can confirm or cancel the action to prevent data loss or accidental shutdown.
 
-3. **Ping 测试**  
-   点击“Ping 测试”按钮后，程序自动读取安装目录中的 `IP_Z.xml` 文件，对预设或自定义 IP 地址依次进行测试，并显示延迟和连接状态；如需修改测试 IP，请编辑 `IP_Z.xml` 文件后重启软件。
+3. **Ping Test**  
+   Click the "Ping Test" button to automatically read the `IP_Z.xml` file in the installation directory and test the listed or custom IP addresses. Results show latency and connection status. To update test IPs, edit the `IP_Z.xml` file and restart the software.
 
-4. **文件同步**  
-   点击“文件同步”按钮进入同步界面，选择源文件夹和目标文件夹后添加同步任务；可加载任务列表查看或删除任务，同时支持开机自动运行同步任务。
+4. **File Synchronization**  
+   Click "File Sync" to open the sync interface. After selecting source and destination folders, you can add tasks, view or remove them from the task list, and enable auto-run on startup for each task.
 
-5. **授权验证**  
-   软件内置授权验证机制，通过 AES 加密保护授权信息，并绑定到具体机器，确保软件仅在授权设备上运行。  
-   - **MD5 值 (Quick-Tools 2.4)**：d85c8c2e3ddbc00ad0ef16afda7b6e73
+5. **License Verification**  
+   The software uses AES encryption to protect license data and binds it to a specific machine, ensuring it runs only on authorized devices.  
+   - **MD5 (Quick-Tools 2.4)**: d85c8c2e3ddbc00ad0ef16afda7b6e73
 
-6. **托盘图标**  
-   最小化时自动隐藏主窗口，仅在托盘显示图标；右键点击图标可选择“显示主界面”或“退出”程序，双击图标也可快速还原主界面。
+6. **System Tray Icon**  
+   When minimized, the main window hides automatically and displays a tray icon. Right-click the icon for options such as "Show Main Interface" or "Exit". You can also double-click the icon to quickly restore the interface.
 
-## 注意事项
-- 运行前请确保拥有系统管理员权限，以便正常执行关机、重启、定时任务和文件同步等功能。
-- 自动关机和重启功能会强制关闭未保存任务，请提前保存工作。
-- 文件同步时请确保源与目标文件夹路径正确，避免数据丢失。
-- 请勿非法修改授权信息，确保软件正常授权运行。
+## Notes
+- Please run the software with administrator privileges to ensure normal operation of shutdown, restart, scheduled tasks, and file sync features.
+- Shutdown and restart features will forcibly close unsaved work — remember to save your progress in advance.
+- Make sure the source and destination folder paths are correct when syncing files to prevent data loss.
+- Do not tamper with the license information. Ensure the software is properly authorized to run.
 
-## 作者
+## Author
 **YiSanYuan**  
-感谢您使用 Quick-Tools，如有问题或建议，请通过 GitHub Issues 或作者主页与我们联系。
+Thank you for using Quick-Tools. If you have any issues or suggestions, please contact us via GitHub Issues or the author's homepage.
