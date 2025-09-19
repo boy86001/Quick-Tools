@@ -30,7 +30,7 @@ Quick-Tools is a multifunctional system management utility that integrates pract
 
 5. **License Verification**  
    The software uses AES encryption to protect license data and binds it to a specific machine, ensuring it runs only on authorized devices.  
-   - **MD5 (Quick-Tools 2.6)**: f2a770ba30e28fa270522a684d325da3
+   - **MD5 (Quick-Tools 2.7)**: f2a770ba30e28fa270522a684d325da3
 
 6. **System Tray Icon**  
    When minimized, the main window hides automatically and displays a tray icon. Right-click the icon for options such as "Show Main Interface" or "Exit". You can also double-click the icon to quickly restore the interface.
