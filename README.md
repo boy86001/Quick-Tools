@@ -3,7 +3,7 @@
 Quick-Tools is a multifunctional system management utility that integrates practical features such as shutdown, restart, network testing, scheduled tasks, and file synchronization. It also provides detailed operation logs and a management interface. The software includes a built-in license verification mechanism to ensure authorized use and supports startup autorun and system tray operation. It is compatible with Windows systems and requires the .NET Framework 4.8 runtime environment.
 
 ## Software Interface Preview
-![Software Interface Preview](https://zero001.icu/webdav/document/2025-01-05.png?v={{TIMESTAMP}})
+![Software Interface Preview](https://zero001.icu/document/2025-01-05.webp?v={{TIMESTAMP}})
 <small>The image has been updated.</small>
 
 ## Download & Installation
